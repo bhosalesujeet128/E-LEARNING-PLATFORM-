@@ -39,9 +39,11 @@
 The inline <style> tag defines the CSS rules used to style the platform. The design emphasizes responsiveness, simplicity, and user-friendliness.
 
 3. Features and Benefits
+
    A)Responsiveness:
          The site remains functional and visually appealing across different devices, including desktops, tablets, and smartphones.
-   B)Progress Tracking:
+
+    B)Progress Tracking:
          Visual indicators for course completion percentages provide users with immediate feedback on their learning progress.
 
    
