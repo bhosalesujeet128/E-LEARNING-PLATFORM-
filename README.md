@@ -29,8 +29,22 @@
           
           
    B)Progress Tracking Section:
-                The progress tracking section is defined by the <section> tag with the ID progress.
-                It features a list of progress bars for the courses offered. Each course is displayed with its title and a horizontal progress bar, visually representing the                 user's completion percentage.
+   
+   The progress tracking section is defined by the <section> tag with the ID progress.It features a list of progress bars for the courses offered. Each course is displayed with its title and a horizontal progress bar, visually representing the user's completion percentage.
+   
+ d. Footer
+      The <footer> section provides a copyright statement. It is styled with the same background color as the header, ensuring design consistency, and features centered text       for simplicity.
+
+2. CSS Styling
+The inline <style> tag defines the CSS rules used to style the platform. The design emphasizes responsiveness, simplicity, and user-friendliness.
+
+3. Features and Benefits
+   A)Responsiveness:
+         The site remains functional and visually appealing across different devices, including desktops, tablets, and smartphones.
+   B)Progress Tracking:
+         Visual indicators for course completion percentages provide users with immediate feedback on their learning progress.
+
+   
 
 #OUTPUT OF THE TASK
 <img width="959" alt="OUTPUT" src="https://github.com/user-attachments/assets/05482fc9-a220-4eed-8228-9d4bd29deec1" />
