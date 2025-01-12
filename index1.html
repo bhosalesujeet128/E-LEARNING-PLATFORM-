@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-Learning Platform</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+    }
+
+    header {
+      background-color: #0646ae;
+      color: white;
+      text-align: center;
+      padding: 20px 10px;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #007bff;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 30px;
+    }
+
+    h2 {
+      color: #007bff;
+      margin-bottom: 10px;
+    }
+
+    .courses, .progress {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 20px;
+    }
+
+    .course, .progress-item {
+      background-color: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .course iframe {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .progress-item p {
+      margin: 5px 0;
+    }
+
+    .progress-bar {
+      height: 10px;
+      background-color: #e0e0e0;
+      border-radius: 5px;
+      overflow: hidden;
+    }
+
+    .progress {
+      height: 100%;
+      background-color: #007bff;
+    }
+
+    footer {
+      background-color: #0646ae;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>E-Learning Platform</h1>
+  </header>
+
+  <nav>
+    <a href="#courses">Courses</a>
+    <a href="#progress">Progress</a>
+  </nav>
+
+  <main>
+    <!-- Courses Section -->
+    <section id="courses">
+      <h2>Courses</h2>
+      <div class="courses">
+        <div class="course">
+          <h3>Web Development</h3>
+          <iframe src="https://www.youtube.com/embed/z0n1aQ3IxWI?si=pnXl4ZAqHUjg8ECA" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="course">
+          <h3>Data Science</h3>
+          <iframe src="https://www.youtube.com/embed/VGhZ4f2UggM?si=hD5n0QeqL3e_ccj0" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="course">
+          <h3>Machine Learning</h3>
+          <iframe src="https://www.youtube.com/embed/i_LwzRVP7bg?si=McS3pEQqSMkztp6F" frameborder="0" allowfullscreen></iframe>
+          
+        </div>
+      </div>
+    </section>
+
+    <!-- Progress Section  -->
+    <section id="progress">
+      <h2>Progress Tracking</h2>
+      <div class="progress">
+        <div class="progress-item">
+          <p>Web Development</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 15%;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <p>Data Science</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 50%;"></div>
+          </div>
+        </div>
+        <div class="progress-item">
+          <p>Machine Learning</p>
+          <div class="progress-bar">
+            <div class="progress" style="width: 30%;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 E-Learning Platform. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
