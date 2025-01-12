@@ -12,17 +12,40 @@
 
 **MENTOR NAME**: NEELA SANTHOSH
 
-#DESCRIPTION: I have built a fully functional interactive quiz application created using HTML, CSS, and JavaScript. It demonstrates a well-organized structure that covers various functionalities, including displaying questions, selecting answers, moving to the next question, and presenting the final score.
-User Flow:
-1) The quiz starts by displaying the first question and its corresponding answers.
-2) The user selects an answer, which is then visually marked as correct or incorrect.
-3) After selecting an answer, the "Next Question" button becomes active, allowing the user to proceed.
-4) On the final question, the "Submit" button is shown instead of the "Next Question" button.
-5) Once the quiz is completed, the user's score is displayed.
+#DESCRIPTION: I have built a fully functional interactive E-LEARNING PLATFORM UI created using HTML AND CSS.This platform allows users to access online courses and track their progress in an organized and visually appealing manner.
+1. HTML Structure:
+   The HTML document follows a structured approach using semantic elements to enhance readability and maintainability:
 
-Features and Functionality:
-1)Questions and answers are dynamically generated from the questions array.
-2)Correct and incorrect answers are visually distinguished using color changes.
-3)The score is incremented for each correct answer and displayed at the end.
+  a. Header
+      The <header> section at the top of the document contains the title "E-Learning Platform." Styled with a bold background color (#0646ae) and white text, it creates a          visually striking introduction to the website.
+
+  b. Navigation Bar
+      The <nav> element provides links to key sections of the platform: "Courses" and "Progress." It uses a flexible layout, centering the links horizontally. Each link is         styled to stand out with white text and hover effects that underline the text for a more interactive user experience.
+
+  c. Main Content
+      The <main> section is the core of the platform and is divided into two key sections:
+          A) Courses Section:
+                This section is represented by the <section> tag with the ID courses.
+                The courses are displayed in a grid layout, making use of the CSS Grid property. Each course occupies a responsive card that adjusts its size based on the                    screen width, ensuring a user-friendly experience across devices.
+                Each course card consists of:
+                A course title (<h3>).
+                An embedded YouTube video (<iframe>), allowing users to preview or learn from the content directly on the platform.
+          B)Progress Tracking Section:
+                The progress tracking section is defined by the <section> tag with the ID progress.
+                It features a list of progress bars for the courses offered. Each course is displayed with its title and a horizontal progress bar, visually representing the                 user's completion percentage.
+  d. Footer
+      The <footer> section provides a copyright statement. It is styled with the same background color as the header, ensuring design consistency, and features centered text       for simplicity.
+
+2. CSS Styling
+The inline <style> tag defines the CSS rules used to style the platform. The design emphasizes responsiveness, simplicity, and user-friendliness.
+
+3. Features and Benefits
+   A)Responsiveness:
+         The site remains functional and visually appealing across different devices, including desktops, tablets, and smartphones.
+   B)Progress Tracking:
+         Visual indicators for course completion percentages provide users with immediate feedback on their learning progress.
+
 
 #OUTPUT OF THE TASK
+<img width="959" alt="OUTPUT" src="https://github.com/user-attachments/assets/05482fc9-a220-4eed-8228-9d4bd29deec1" />
+
