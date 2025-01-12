@@ -26,9 +26,6 @@
         A) Courses Section:
                 This section is represented by the <section> tag with the ID courses.
                 The courses are displayed in a grid layout, making use of the CSS Grid property. Each course occupies a responsive card that adjusts its size based on the                    screen width, ensuring a user-friendly experience across devices.
-                Each course card consists of:
-                A course title (<h3>).
-                An embedded YouTube video (<iframe>), allowing users to preview or learn from the content directly on the platform.
           B)Progress Tracking Section:
                 The progress tracking section is defined by the <section> tag with the ID progress.
                 It features a list of progress bars for the courses offered. Each course is displayed with its title and a horizontal progress bar, visually representing the                 user's completion percentage.
